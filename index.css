@@ -41,9 +41,8 @@ nav {
 }
 
 header {
-    background-image: url(/Projects/Hero-bg.png);
+    background-image: url("/Hero-bg.png");
     background-position: center;
-    /* background-attachment:fixed ; */
 
 
 }
@@ -53,27 +52,6 @@ header {
     height: 100vh;
 }
 
-
-/* header ends  */
-/* action starts  */
-/* .action{
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-    border: 7px solid white;
-     border-radius: 10px;
-     background-color: #d7d6f8;
-}
-.action-content{
-   
-   text-align: center;
-   padding: 100px;
-   
-}
-.div{
-     border: 7px solid white;
-     border-radius: 10px;
-} */
 .action{
      background-color: #e6e6fa;
       display: flex;
@@ -91,8 +69,6 @@ header {
     color: rgb(167, 166, 166);
     
 } 
-
-
 
 .action-img img {
     border: 1px solid #d7d6f8;
