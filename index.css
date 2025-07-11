@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+/* common work  */
+.btn {
+    color: rgb(231, 231, 241);
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+
+/* common work ends  */
+
+
+/* header starts  */
+.logo {
+    color: blue;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.banner-content button {
+    margin-top: 50px;
+}
+
+header {
+    background-image: url(/Projects/Hero-bg.png);
+    background-position: center;
+    /* background-attachment:fixed ; */
+
+
+}
+
+.banner {
+    max-height: 700vh;
+    height: 100vh;
+}
+
+
+/* header ends  */
+/* action starts  */
+/* .action{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    border: 7px solid white;
+     border-radius: 10px;
+     background-color: #d7d6f8;
+}
+.action-content{
+   
+   text-align: center;
+   padding: 100px;
+   
+}
+.div{
+     border: 7px solid white;
+     border-radius: 10px;
+} */
+.action{
+     background-color: #e6e6fa;
+      display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    margin: 50px 70px;
+    border-radius: 10px;
+} 
+ .action-content{
+     align-items: center;
+     padding-top: 100px;
+     padding-right: 90px;
+}
+.action-content p{
+    color: rgb(167, 166, 166);
+    
+} 
+
+
+
+.action-img img {
+    border: 1px solid #d7d6f8;
+    border-radius: 30px;
+} 
+
+/* action ends  */
