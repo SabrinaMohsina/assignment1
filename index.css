@@ -14,6 +14,12 @@
     border: 1px solid white;
     border-radius: 9px;
 }
+.btn:hover{
+    padding: 15px;
+    background-color: yellow;
+    color: black;
+    border: black;
+}
 
 /* common work ends  */
 
@@ -116,6 +122,7 @@ header {
 /* review starts  */
 .review{
       background-color: whitesmoke;
+      padding: 60px;
 }
 .review-title h2{
     text-align: center;
@@ -190,3 +197,25 @@ textarea{
 }
 
 /* newsletter ends  */
+/* footer starts  */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top:20px ;
+}
+footer h1{
+    text-align: center;
+}
+footer .footer-container .content{
+    text-align: center;
+}
+footer .footer-container .content a {
+    color: rgb(167, 164, 164);
+    padding: 10px;
+}
+footer .footer-container  p {
+    color: rgb(167, 164, 164);
+}
+/* footer ends  */
