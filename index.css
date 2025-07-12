@@ -9,7 +9,7 @@
 /* common work  */
 .btn {
     color: rgb(231, 231, 241);
-    background-color: blue;
+    background-color: #4E47FF;
     padding: 10px;
     border: 1px solid white;
     border-radius: 9px;
@@ -21,7 +21,7 @@
 /* header starts  */
 .logo {
     color: blue;
-    font-weight: 400;
+    font-weight: 1100;
 }
 
 nav {
@@ -53,7 +53,7 @@ header {
 }
 
 .action{
-     background-color: #e6e6fa;
+     /* background-color: #e6e6fa; */
       display: flex;
     justify-content: center;
     padding: 20px 30px;
@@ -76,3 +76,74 @@ header {
 } 
 
 /* action ends  */
+/* productive starts  */
+.productive-container{
+    background-color:#d7d6f8 ;
+    align-items: center;
+    margin: 50px 150px;
+    padding: 30px;
+}
+.productive-container{
+     border-radius: 10px;
+}
+.productive-container h2{
+   text-align: center;
+   padding-left: 50px;
+}
+.productive-content{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.item1{
+    padding: 5px;
+    color: #4E47FF;
+}
+.item1 h1{
+    font-weight: 1000;
+}
+.item1 p{
+    color: rgb(167, 167, 167);
+    padding-right: 20px;
+    font-weight: 50;
+
+}
+
+/* productive ends  */
+/* review starts  */
+.review{
+      background-color: whitesmoke;
+}
+.review-title h2{
+    text-align: center;
+    padding-top: 20px;
+  
+
+}
+ .review-content{
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ .part1{
+     background-color: white;
+     padding: 20px;
+     margin-left: 30px;
+     border-radius: 30px;
+ }
+ .part1 .small img{
+     border-radius: 30px;
+ }
+  .part1 .small {
+    display: flex;
+    justify-content: celeftter;
+
+  }
+  .part1 .small .small1{
+     padding-left: 5px;
+  }
+
+
+/* review ends */
