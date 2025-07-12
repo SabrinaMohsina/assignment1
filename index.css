@@ -51,6 +51,8 @@ header {
     max-height: 700vh;
     height: 100vh;
 }
+/* header ends  */
+/* action starts  */
 
 .action{
      /* background-color: #e6e6fa; */
@@ -138,7 +140,7 @@ header {
  }
   .part1 .small {
     display: flex;
-    justify-content: celeftter;
+    justify-content: left;
 
   }
   .part1 .small .small1{
@@ -147,3 +149,44 @@ header {
 
 
 /* review ends */
+/* newsletter starts  */
+.newsletter{
+    background-color: #d7d6f8;
+     display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 100px;
+}
+.display-left h1{
+    /* text-align: center;
+    align-items: center; */
+     margin-top: 100px;
+     padding-right: 100px;
+    font-weight: 900;
+    
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+input {
+    padding: 5px;
+}
+input , textarea {
+    border: 1px solid #d7d6f8;
+    border-radius: 5px;
+    width: 100%;
+}
+textarea{
+    padding: 10px;
+    color: rgb(211, 210, 210);
+    text-decoration: none;
+}
+ .newsletter button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* newsletter ends  */
